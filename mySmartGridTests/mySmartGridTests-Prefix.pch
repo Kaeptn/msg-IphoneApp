@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'mySmartGridTests' target in the 'mySmartGridTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

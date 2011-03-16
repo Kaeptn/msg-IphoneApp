@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DBD6AC513312A7D0061D0C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD6AC413312A7D0061D0C4 /* UIKit.framework */; };
+		8DBD6AC713312A7D0061D0C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD6AC613312A7D0061D0C4 /* Foundation.framework */; };
+		8DBD6AC913312A7D0061D0C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD6AC813312A7D0061D0C4 /* CoreGraphics.framework */; };
+		8DBD6ACF13312A7D0061D0C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6ACD13312A7D0061D0C4 /* InfoPlist.strings */; };
+		8DBD6AD213312A7D0061D0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6AD113312A7D0061D0C4 /* main.m */; };
+		8DBD6AD513312A7D0061D0C4 /* mySmartGridAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6AD413312A7D0061D0C4 /* mySmartGridAppDelegate.m */; };
+		8DBD6AD813312A7D0061D0C4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6AD613312A7D0061D0C4 /* MainWindow.xib */; };
+		8DBD6ADB13312A7D0061D0C4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6ADA13312A7D0061D0C4 /* FirstViewController.m */; };
+		8DBD6ADE13312A7D0061D0C4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6ADD13312A7D0061D0C4 /* SecondViewController.m */; };
+		8DBD6AE113312A7D0061D0C4 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6ADF13312A7D0061D0C4 /* FirstView.xib */; };
+		8DBD6AE413312A7D0061D0C4 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6AE213312A7D0061D0C4 /* SecondView.xib */; };
+		8DBD6AEB13312A7D0061D0C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD6AC413312A7D0061D0C4 /* UIKit.framework */; };
+		8DBD6AEC13312A7D0061D0C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD6AC613312A7D0061D0C4 /* Foundation.framework */; };
+		8DBD6AED13312A7D0061D0C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD6AC813312A7D0061D0C4 /* CoreGraphics.framework */; };
+		8DBD6AF513312A7D0061D0C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6AF313312A7D0061D0C4 /* InfoPlist.strings */; };
+		8DBD6AF813312A7D0061D0C4 /* mySmartGridTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6AF713312A7D0061D0C4 /* mySmartGridTests.h */; };
+		8DBD6AFA13312A7D0061D0C4 /* mySmartGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6AF913312A7D0061D0C4 /* mySmartGridTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DBD6AEE13312A7D0061D0C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DBD6AB713312A7D0061D0C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DBD6ABF13312A7D0061D0C4;
+			remoteInfo = mySmartGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DBD6AC013312A7D0061D0C4 /* mySmartGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySmartGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBD6AC413312A7D0061D0C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DBD6AC613312A7D0061D0C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DBD6AC813312A7D0061D0C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DBD6ACC13312A7D0061D0C4 /* mySmartGrid-Info.plist */ = {isa = PBXFileReference; path = "mySmartGrid-Info.plist"; sourceTree = "<group>"; };
+		8DBD6ACE13312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DBD6AD013312A7D0061D0C4 /* mySmartGrid-Prefix.pch */ = {isa = PBXFileReference; path = "mySmartGrid-Prefix.pch"; sourceTree = "<group>"; };
+		8DBD6AD113312A7D0061D0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DBD6AD313312A7D0061D0C4 /* mySmartGridAppDelegate.h */ = {isa = PBXFileReference; path = mySmartGridAppDelegate.h; sourceTree = "<group>"; };
+		8DBD6AD413312A7D0061D0C4 /* mySmartGridAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySmartGridAppDelegate.m; sourceTree = "<group>"; };
+		8DBD6AD713312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8DBD6AD913312A7D0061D0C4 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		8DBD6ADA13312A7D0061D0C4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8DBD6ADC13312A7D0061D0C4 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		8DBD6ADD13312A7D0061D0C4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8DBD6AE013312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		8DBD6AE313312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		8DBD6AEA13312A7D0061D0C4 /* mySmartGridTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySmartGridTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBD6AF213312A7D0061D0C4 /* mySmartGridTests-Info.plist */ = {isa = PBXFileReference; path = "mySmartGridTests-Info.plist"; sourceTree = "<group>"; };
+		8DBD6AF413312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DBD6AF613312A7D0061D0C4 /* mySmartGridTests-Prefix.pch */ = {isa = PBXFileReference; path = "mySmartGridTests-Prefix.pch"; sourceTree = "<group>"; };
+		8DBD6AF713312A7D0061D0C4 /* mySmartGridTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mySmartGridTests.h; sourceTree = "<group>"; };
+		8DBD6AF913312A7D0061D0C4 /* mySmartGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySmartGridTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DBD6ABD13312A7D0061D0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBD6AC513312A7D0061D0C4 /* UIKit.framework in Frameworks */,
+				8DBD6AC713312A7D0061D0C4 /* Foundation.framework in Frameworks */,
+				8DBD6AC913312A7D0061D0C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBD6AE613312A7D0061D0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBD6AEB13312A7D0061D0C4 /* UIKit.framework in Frameworks */,
+				8DBD6AEC13312A7D0061D0C4 /* Foundation.framework in Frameworks */,
+				8DBD6AED13312A7D0061D0C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DBD6AB513312A7D0061D0C4 = {
+			isa = PBXGroup;
+			children = (
+				8DBD6ACA13312A7D0061D0C4 /* mySmartGrid */,
+				8DBD6AF013312A7D0061D0C4 /* mySmartGridTests */,
+				8DBD6AC313312A7D0061D0C4 /* Frameworks */,
+				8DBD6AC113312A7D0061D0C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DBD6AC113312A7D0061D0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD6AC013312A7D0061D0C4 /* mySmartGrid.app */,
+				8DBD6AEA13312A7D0061D0C4 /* mySmartGridTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DBD6AC313312A7D0061D0C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD6AC413312A7D0061D0C4 /* UIKit.framework */,
+				8DBD6AC613312A7D0061D0C4 /* Foundation.framework */,
+				8DBD6AC813312A7D0061D0C4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DBD6ACA13312A7D0061D0C4 /* mySmartGrid */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD6AD313312A7D0061D0C4 /* mySmartGridAppDelegate.h */,
+				8DBD6AD413312A7D0061D0C4 /* mySmartGridAppDelegate.m */,
+				8DBD6AD613312A7D0061D0C4 /* MainWindow.xib */,
+				8DBD6AD913312A7D0061D0C4 /* FirstViewController.h */,
+				8DBD6ADA13312A7D0061D0C4 /* FirstViewController.m */,
+				8DBD6ADC13312A7D0061D0C4 /* SecondViewController.h */,
+				8DBD6ADD13312A7D0061D0C4 /* SecondViewController.m */,
+				8DBD6ADF13312A7D0061D0C4 /* FirstView.xib */,
+				8DBD6AE213312A7D0061D0C4 /* SecondView.xib */,
+				8DBD6ACB13312A7D0061D0C4 /* Supporting Files */,
+			);
+			path = mySmartGrid;
+			sourceTree = "<group>";
+		};
+		8DBD6ACB13312A7D0061D0C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD6ACC13312A7D0061D0C4 /* mySmartGrid-Info.plist */,
+				8DBD6ACD13312A7D0061D0C4 /* InfoPlist.strings */,
+				8DBD6AD013312A7D0061D0C4 /* mySmartGrid-Prefix.pch */,
+				8DBD6AD113312A7D0061D0C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DBD6AF013312A7D0061D0C4 /* mySmartGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD6AF713312A7D0061D0C4 /* mySmartGridTests.h */,
+				8DBD6AF913312A7D0061D0C4 /* mySmartGridTests.m */,
+				8DBD6AF113312A7D0061D0C4 /* Supporting Files */,
+			);
+			path = mySmartGridTests;
+			sourceTree = "<group>";
+		};
+		8DBD6AF113312A7D0061D0C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD6AF213312A7D0061D0C4 /* mySmartGridTests-Info.plist */,
+				8DBD6AF313312A7D0061D0C4 /* InfoPlist.strings */,
+				8DBD6AF613312A7D0061D0C4 /* mySmartGridTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DBD6ABF13312A7D0061D0C4 /* mySmartGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBD6AFD13312A7D0061D0C4 /* Build configuration list for PBXNativeTarget "mySmartGrid" */;
+			buildPhases = (
+				8DBD6ABC13312A7D0061D0C4 /* Sources */,
+				8DBD6ABD13312A7D0061D0C4 /* Frameworks */,
+				8DBD6ABE13312A7D0061D0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mySmartGrid;
+			productName = mySmartGrid;
+			productReference = 8DBD6AC013312A7D0061D0C4 /* mySmartGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DBD6AE913312A7D0061D0C4 /* mySmartGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBD6B0013312A7D0061D0C4 /* Build configuration list for PBXNativeTarget "mySmartGridTests" */;
+			buildPhases = (
+				8DBD6AE513312A7D0061D0C4 /* Sources */,
+				8DBD6AE613312A7D0061D0C4 /* Frameworks */,
+				8DBD6AE713312A7D0061D0C4 /* Resources */,
+				8DBD6AE813312A7D0061D0C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DBD6AEF13312A7D0061D0C4 /* PBXTargetDependency */,
+			);
+			name = mySmartGridTests;
+			productName = mySmartGridTests;
+			productReference = 8DBD6AEA13312A7D0061D0C4 /* mySmartGridTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DBD6AB713312A7D0061D0C4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8DBD6ABA13312A7D0061D0C4 /* Build configuration list for PBXProject "mySmartGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DBD6AB513312A7D0061D0C4;
+			productRefGroup = 8DBD6AC113312A7D0061D0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DBD6ABF13312A7D0061D0C4 /* mySmartGrid */,
+				8DBD6AE913312A7D0061D0C4 /* mySmartGridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DBD6ABE13312A7D0061D0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBD6ACF13312A7D0061D0C4 /* InfoPlist.strings in Resources */,
+				8DBD6AD813312A7D0061D0C4 /* MainWindow.xib in Resources */,
+				8DBD6AE113312A7D0061D0C4 /* FirstView.xib in Resources */,
+				8DBD6AE413312A7D0061D0C4 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBD6AE713312A7D0061D0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBD6AF513312A7D0061D0C4 /* InfoPlist.strings in Resources */,
+				8DBD6AF813312A7D0061D0C4 /* mySmartGridTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DBD6AE813312A7D0061D0C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DBD6ABC13312A7D0061D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBD6AD213312A7D0061D0C4 /* main.m in Sources */,
+				8DBD6AD513312A7D0061D0C4 /* mySmartGridAppDelegate.m in Sources */,
+				8DBD6ADB13312A7D0061D0C4 /* FirstViewController.m in Sources */,
+				8DBD6ADE13312A7D0061D0C4 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBD6AE513312A7D0061D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBD6AFA13312A7D0061D0C4 /* mySmartGridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DBD6AEF13312A7D0061D0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DBD6ABF13312A7D0061D0C4 /* mySmartGrid */;
+			targetProxy = 8DBD6AEE13312A7D0061D0C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DBD6ACD13312A7D0061D0C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBD6ACE13312A7D0061D0C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DBD6AD613312A7D0061D0C4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBD6AD713312A7D0061D0C4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8DBD6ADF13312A7D0061D0C4 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBD6AE013312A7D0061D0C4 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		8DBD6AE213312A7D0061D0C4 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBD6AE313312A7D0061D0C4 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		8DBD6AF313312A7D0061D0C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBD6AF413312A7D0061D0C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DBD6AFB13312A7D0061D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DBD6AFC13312A7D0061D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8DBD6AFE13312A7D0061D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySmartGrid/mySmartGrid-Prefix.pch";
+				INFOPLIST_FILE = "mySmartGrid/mySmartGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DBD6AFF13312A7D0061D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySmartGrid/mySmartGrid-Prefix.pch";
+				INFOPLIST_FILE = "mySmartGrid/mySmartGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8DBD6B0113312A7D0061D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mySmartGrid.app/mySmartGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySmartGridTests/mySmartGridTests-Prefix.pch";
+				INFOPLIST_FILE = "mySmartGridTests/mySmartGridTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8DBD6B0213312A7D0061D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mySmartGrid.app/mySmartGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySmartGridTests/mySmartGridTests-Prefix.pch";
+				INFOPLIST_FILE = "mySmartGridTests/mySmartGridTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DBD6ABA13312A7D0061D0C4 /* Build configuration list for PBXProject "mySmartGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBD6AFB13312A7D0061D0C4 /* Debug */,
+				8DBD6AFC13312A7D0061D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBD6AFD13312A7D0061D0C4 /* Build configuration list for PBXNativeTarget "mySmartGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBD6AFE13312A7D0061D0C4 /* Debug */,
+				8DBD6AFF13312A7D0061D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DBD6B0013312A7D0061D0C4 /* Build configuration list for PBXNativeTarget "mySmartGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBD6B0113312A7D0061D0C4 /* Debug */,
+				8DBD6B0213312A7D0061D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DBD6AB713312A7D0061D0C4 /* Project object */;
+}
