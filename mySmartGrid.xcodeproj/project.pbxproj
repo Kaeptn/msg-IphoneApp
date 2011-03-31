@@ -14,16 +14,24 @@
 		8DBD6AD213312A7D0061D0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6AD113312A7D0061D0C4 /* main.m */; };
 		8DBD6AD513312A7D0061D0C4 /* mySmartGridAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6AD413312A7D0061D0C4 /* mySmartGridAppDelegate.m */; };
 		8DBD6AD813312A7D0061D0C4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6AD613312A7D0061D0C4 /* MainWindow.xib */; };
-		8DBD6ADB13312A7D0061D0C4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6ADA13312A7D0061D0C4 /* FirstViewController.m */; };
-		8DBD6ADE13312A7D0061D0C4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6ADD13312A7D0061D0C4 /* SecondViewController.m */; };
-		8DBD6AE113312A7D0061D0C4 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6ADF13312A7D0061D0C4 /* FirstView.xib */; };
-		8DBD6AE413312A7D0061D0C4 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6AE213312A7D0061D0C4 /* SecondView.xib */; };
 		8DBD6AEB13312A7D0061D0C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD6AC413312A7D0061D0C4 /* UIKit.framework */; };
 		8DBD6AEC13312A7D0061D0C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD6AC613312A7D0061D0C4 /* Foundation.framework */; };
 		8DBD6AED13312A7D0061D0C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD6AC813312A7D0061D0C4 /* CoreGraphics.framework */; };
 		8DBD6AF513312A7D0061D0C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6AF313312A7D0061D0C4 /* InfoPlist.strings */; };
 		8DBD6AF813312A7D0061D0C4 /* mySmartGridTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6AF713312A7D0061D0C4 /* mySmartGridTests.h */; };
 		8DBD6AFA13312A7D0061D0C4 /* mySmartGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6AF913312A7D0061D0C4 /* mySmartGridTests.m */; };
+		8DBD6B0613312B2E0061D0C4 /* Live.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6B0413312B2E0061D0C4 /* Live.m */; };
+		8DBD6B0713312B2E0061D0C4 /* Live.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD6B0513312B2E0061D0C4 /* Live.xib */; };
+		8DBD6C85133130A80061D0C4 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6C74133130A80061D0C4 /* NSObject+JSON.m */; };
+		8DBD6C86133130A80061D0C4 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6C76133130A80061D0C4 /* SBJsonParser.m */; };
+		8DBD6C87133130A80061D0C4 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6C78133130A80061D0C4 /* SBJsonStreamParser.m */; };
+		8DBD6C88133130A80061D0C4 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6C7A133130A80061D0C4 /* SBJsonStreamParserAdapter.m */; };
+		8DBD6C89133130A80061D0C4 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6C7C133130A80061D0C4 /* SBJsonStreamParserState.m */; };
+		8DBD6C8A133130A80061D0C4 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6C7E133130A80061D0C4 /* SBJsonStreamWriter.m */; };
+		8DBD6C8B133130A80061D0C4 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6C80133130A80061D0C4 /* SBJsonStreamWriterState.m */; };
+		8DBD6C8C133130A80061D0C4 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6C82133130A80061D0C4 /* SBJsonTokeniser.m */; };
+		8DBD6C8D133130A80061D0C4 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD6C84133130A80061D0C4 /* SBJsonWriter.m */; };
+		8DFD7F6F1344E92A00550628 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DFD7F6E1344E92A00550628 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,25 +49,42 @@
 		8DBD6AC413312A7D0061D0C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8DBD6AC613312A7D0061D0C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DBD6AC813312A7D0061D0C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8DBD6ACC13312A7D0061D0C4 /* mySmartGrid-Info.plist */ = {isa = PBXFileReference; path = "mySmartGrid-Info.plist"; sourceTree = "<group>"; };
+		8DBD6ACC13312A7D0061D0C4 /* mySmartGrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mySmartGrid-Info.plist"; sourceTree = "<group>"; };
 		8DBD6ACE13312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8DBD6AD013312A7D0061D0C4 /* mySmartGrid-Prefix.pch */ = {isa = PBXFileReference; path = "mySmartGrid-Prefix.pch"; sourceTree = "<group>"; };
+		8DBD6AD013312A7D0061D0C4 /* mySmartGrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mySmartGrid-Prefix.pch"; sourceTree = "<group>"; };
 		8DBD6AD113312A7D0061D0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8DBD6AD313312A7D0061D0C4 /* mySmartGridAppDelegate.h */ = {isa = PBXFileReference; path = mySmartGridAppDelegate.h; sourceTree = "<group>"; };
+		8DBD6AD313312A7D0061D0C4 /* mySmartGridAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mySmartGridAppDelegate.h; sourceTree = "<group>"; };
 		8DBD6AD413312A7D0061D0C4 /* mySmartGridAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySmartGridAppDelegate.m; sourceTree = "<group>"; };
 		8DBD6AD713312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		8DBD6AD913312A7D0061D0C4 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		8DBD6ADA13312A7D0061D0C4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8DBD6ADC13312A7D0061D0C4 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		8DBD6ADD13312A7D0061D0C4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		8DBD6AE013312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		8DBD6AE313312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		8DBD6AEA13312A7D0061D0C4 /* mySmartGridTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySmartGridTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DBD6AF213312A7D0061D0C4 /* mySmartGridTests-Info.plist */ = {isa = PBXFileReference; path = "mySmartGridTests-Info.plist"; sourceTree = "<group>"; };
+		8DBD6AF213312A7D0061D0C4 /* mySmartGridTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mySmartGridTests-Info.plist"; sourceTree = "<group>"; };
 		8DBD6AF413312A7D0061D0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8DBD6AF613312A7D0061D0C4 /* mySmartGridTests-Prefix.pch */ = {isa = PBXFileReference; path = "mySmartGridTests-Prefix.pch"; sourceTree = "<group>"; };
+		8DBD6AF613312A7D0061D0C4 /* mySmartGridTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mySmartGridTests-Prefix.pch"; sourceTree = "<group>"; };
 		8DBD6AF713312A7D0061D0C4 /* mySmartGridTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mySmartGridTests.h; sourceTree = "<group>"; };
 		8DBD6AF913312A7D0061D0C4 /* mySmartGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySmartGridTests.m; sourceTree = "<group>"; };
+		8DBD6B0313312B2E0061D0C4 /* Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Live.h; sourceTree = "<group>"; };
+		8DBD6B0413312B2E0061D0C4 /* Live.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Live.m; sourceTree = "<group>"; };
+		8DBD6B0513312B2E0061D0C4 /* Live.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Live.xib; sourceTree = "<group>"; };
+		8DBD6C72133130A80061D0C4 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		8DBD6C73133130A80061D0C4 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		8DBD6C74133130A80061D0C4 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		8DBD6C75133130A80061D0C4 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		8DBD6C76133130A80061D0C4 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		8DBD6C77133130A80061D0C4 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		8DBD6C78133130A80061D0C4 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		8DBD6C79133130A80061D0C4 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		8DBD6C7A133130A80061D0C4 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		8DBD6C7B133130A80061D0C4 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		8DBD6C7C133130A80061D0C4 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		8DBD6C7D133130A80061D0C4 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		8DBD6C7E133130A80061D0C4 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		8DBD6C7F133130A80061D0C4 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		8DBD6C80133130A80061D0C4 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		8DBD6C81133130A80061D0C4 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		8DBD6C82133130A80061D0C4 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		8DBD6C83133130A80061D0C4 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		8DBD6C84133130A80061D0C4 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		8DFD7F6E1344E92A00550628 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +114,7 @@
 		8DBD6AB513312A7D0061D0C4 = {
 			isa = PBXGroup;
 			children = (
+				8DFD7F701344EB0600550628 /* Images */,
 				8DBD6ACA13312A7D0061D0C4 /* mySmartGrid */,
 				8DBD6AF013312A7D0061D0C4 /* mySmartGridTests */,
 				8DBD6AC313312A7D0061D0C4 /* Frameworks */,
@@ -118,15 +144,13 @@
 		8DBD6ACA13312A7D0061D0C4 /* mySmartGrid */ = {
 			isa = PBXGroup;
 			children = (
+				8DBD6C71133130790061D0C4 /* Json-Framework */,
+				8DBD6B0313312B2E0061D0C4 /* Live.h */,
+				8DBD6B0413312B2E0061D0C4 /* Live.m */,
+				8DBD6B0513312B2E0061D0C4 /* Live.xib */,
 				8DBD6AD313312A7D0061D0C4 /* mySmartGridAppDelegate.h */,
 				8DBD6AD413312A7D0061D0C4 /* mySmartGridAppDelegate.m */,
 				8DBD6AD613312A7D0061D0C4 /* MainWindow.xib */,
-				8DBD6AD913312A7D0061D0C4 /* FirstViewController.h */,
-				8DBD6ADA13312A7D0061D0C4 /* FirstViewController.m */,
-				8DBD6ADC13312A7D0061D0C4 /* SecondViewController.h */,
-				8DBD6ADD13312A7D0061D0C4 /* SecondViewController.m */,
-				8DBD6ADF13312A7D0061D0C4 /* FirstView.xib */,
-				8DBD6AE213312A7D0061D0C4 /* SecondView.xib */,
 				8DBD6ACB13312A7D0061D0C4 /* Supporting Files */,
 			);
 			path = mySmartGrid;
@@ -161,6 +185,40 @@
 				8DBD6AF613312A7D0061D0C4 /* mySmartGridTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DBD6C71133130790061D0C4 /* Json-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD6C72133130A80061D0C4 /* JSON.h */,
+				8DBD6C73133130A80061D0C4 /* NSObject+JSON.h */,
+				8DBD6C74133130A80061D0C4 /* NSObject+JSON.m */,
+				8DBD6C75133130A80061D0C4 /* SBJsonParser.h */,
+				8DBD6C76133130A80061D0C4 /* SBJsonParser.m */,
+				8DBD6C77133130A80061D0C4 /* SBJsonStreamParser.h */,
+				8DBD6C78133130A80061D0C4 /* SBJsonStreamParser.m */,
+				8DBD6C79133130A80061D0C4 /* SBJsonStreamParserAdapter.h */,
+				8DBD6C7A133130A80061D0C4 /* SBJsonStreamParserAdapter.m */,
+				8DBD6C7B133130A80061D0C4 /* SBJsonStreamParserState.h */,
+				8DBD6C7C133130A80061D0C4 /* SBJsonStreamParserState.m */,
+				8DBD6C7D133130A80061D0C4 /* SBJsonStreamWriter.h */,
+				8DBD6C7E133130A80061D0C4 /* SBJsonStreamWriter.m */,
+				8DBD6C7F133130A80061D0C4 /* SBJsonStreamWriterState.h */,
+				8DBD6C80133130A80061D0C4 /* SBJsonStreamWriterState.m */,
+				8DBD6C81133130A80061D0C4 /* SBJsonTokeniser.h */,
+				8DBD6C82133130A80061D0C4 /* SBJsonTokeniser.m */,
+				8DBD6C83133130A80061D0C4 /* SBJsonWriter.h */,
+				8DBD6C84133130A80061D0C4 /* SBJsonWriter.m */,
+			);
+			name = "Json-Framework";
+			sourceTree = "<group>";
+		};
+		8DFD7F701344EB0600550628 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8DFD7F6E1344E92A00550628 /* Default.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +271,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = 8DBD6AB513312A7D0061D0C4;
 			productRefGroup = 8DBD6AC113312A7D0061D0C4 /* Products */;
@@ -232,8 +291,8 @@
 			files = (
 				8DBD6ACF13312A7D0061D0C4 /* InfoPlist.strings in Resources */,
 				8DBD6AD813312A7D0061D0C4 /* MainWindow.xib in Resources */,
-				8DBD6AE113312A7D0061D0C4 /* FirstView.xib in Resources */,
-				8DBD6AE413312A7D0061D0C4 /* SecondView.xib in Resources */,
+				8DBD6B0713312B2E0061D0C4 /* Live.xib in Resources */,
+				8DFD7F6F1344E92A00550628 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +330,16 @@
 			files = (
 				8DBD6AD213312A7D0061D0C4 /* main.m in Sources */,
 				8DBD6AD513312A7D0061D0C4 /* mySmartGridAppDelegate.m in Sources */,
-				8DBD6ADB13312A7D0061D0C4 /* FirstViewController.m in Sources */,
-				8DBD6ADE13312A7D0061D0C4 /* SecondViewController.m in Sources */,
+				8DBD6B0613312B2E0061D0C4 /* Live.m in Sources */,
+				8DBD6C85133130A80061D0C4 /* NSObject+JSON.m in Sources */,
+				8DBD6C86133130A80061D0C4 /* SBJsonParser.m in Sources */,
+				8DBD6C87133130A80061D0C4 /* SBJsonStreamParser.m in Sources */,
+				8DBD6C88133130A80061D0C4 /* SBJsonStreamParserAdapter.m in Sources */,
+				8DBD6C89133130A80061D0C4 /* SBJsonStreamParserState.m in Sources */,
+				8DBD6C8A133130A80061D0C4 /* SBJsonStreamWriter.m in Sources */,
+				8DBD6C8B133130A80061D0C4 /* SBJsonStreamWriterState.m in Sources */,
+				8DBD6C8C133130A80061D0C4 /* SBJsonTokeniser.m in Sources */,
+				8DBD6C8D133130A80061D0C4 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,22 +376,6 @@
 				8DBD6AD713312A7D0061D0C4 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		8DBD6ADF13312A7D0061D0C4 /* FirstView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DBD6AE013312A7D0061D0C4 /* en */,
-			);
-			name = FirstView.xib;
-			sourceTree = "<group>";
-		};
-		8DBD6AE213312A7D0061D0C4 /* SecondView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DBD6AE313312A7D0061D0C4 /* en */,
-			);
-			name = SecondView.xib;
 			sourceTree = "<group>";
 		};
 		8DBD6AF313312A7D0061D0C4 /* InfoPlist.strings */ = {
@@ -461,6 +512,7 @@
 				8DBD6AFF13312A7D0061D0C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBD6B0013312A7D0061D0C4 /* Build configuration list for PBXNativeTarget "mySmartGridTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +521,7 @@
 				8DBD6B0213312A7D0061D0C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
