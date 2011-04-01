@@ -11,7 +11,7 @@
 
 @implementation Live
 
-@synthesize receivedData, theConnection, my_timer;
+@synthesize receivedData, theConnection, my_timer, theHost, theToken;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -41,7 +41,10 @@
 -(void)reload_data_method{
     
     NSLog(@"Request");
-	NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:8877/sensor/d1f8040e75a57e1509e6034558c3dea8"]
+    
+    NSString *theURL = [NSString stringWithFormat:@"http://%@/sensor/%@",theHost ,theToken ];
+    
+	NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:theURL]
 											  cachePolicy:NSURLRequestUseProtocolCachePolicy
 										  timeoutInterval:60.0];
 	// create the connection with the request
@@ -59,6 +62,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    theHost = @"localhost:8877";
+    theToken = @"d1f8040e75a57e1509e6034558c3dea8";
     
     lblVerbrauch.text = @"0 Watt";
        

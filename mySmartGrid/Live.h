@@ -13,16 +13,21 @@
     IBOutlet UILabel *lblVerbrauch;
     NSTimer *my_timer;
 	NSMutableData *receivedData;
-	NSURLConnection *theConnection;    
+	NSURLConnection *theConnection;   
+    NSString *theHost;
+    NSString *theToken;
     
 }
 
-- (void) startMyTimer;
+- (void)startMyTimer:(NSInteger) time;
 
 
 @property (nonatomic, retain) NSMutableData *receivedData;
 @property (nonatomic, retain) NSURLConnection *theConnection;
 @property (nonatomic, retain) NSTimer *my_timer;
+@property (nonatomic, retain) NSString *theHost;
+@property (nonatomic, retain) NSString *theToken;
+
 
 
 @end
